@@ -26,7 +26,7 @@ Desarrollado por:
     
    4. El valor de ssiendo los links salientes.
     
-        s   = 5     
+    s  = 5
         
    5.El valor rank siendo la importancia de la pagina en un valor numerico calculado de la siguiente manera: rank = e/s 
    
