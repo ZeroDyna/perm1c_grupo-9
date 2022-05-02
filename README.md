@@ -5,10 +5,11 @@ Desarrollado por:
 - Alexis Espinoza Villanueva
 - RenatoOscar Corrales Peña
 
-El progema se deesarrollo a partir del siguiente diccionario buscador. Para este trabajo primero tendra que descargar el script web.py del siguiente link:
+El programa se desarrollo a partir del siguiente diccionario:
 
     https://drive.google.com/file/d/1hHQu9N7hyl9FI-LlcI1-vtDTKB0Cs3xI/view?usp=sharing
-
+    
+El script web.py contiene un diccionario donde las claves son urls de paginas web y los valores representan el contenido de cada url o pagina
 
 # Intrucciones de ejecucion
 1.El usuario debera tener python e ingresar
