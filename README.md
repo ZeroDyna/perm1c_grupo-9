@@ -14,7 +14,7 @@ En el cual las claves son urls de paginas web y los valores representan el conte
 # Intrucciones de ejecucion
 1.El usuario debera tener python e ingresar
 
-    >>> perm1cgrupo9.py
+    >>> python3 perm1cgrupo9.py
     
    2.Al iniciar el programa se le mostrara la pagina web, los links entrantes, los links salientes y el valor de importancia de la pagina(como un valor numerico).
     
