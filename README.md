@@ -5,6 +5,11 @@ Desarrollado por:
 - Alexis Espinoza Villanueva
 - RenatoOscar Corrales Peña
 
+El progema se deesarrollo a partir del siguiente diccionario buscador. Para este trabajo primero tendra que descargar el script web.py del siguiente link:
+
+    https://drive.google.com/file/d/1hHQu9N7hyl9FI-LlcI1-vtDTKB0Cs3xI/view?usp=sharing
+
+
 # Intrucciones de ejecucion
 1.El usuario debera tener python e ingresar
 
@@ -28,9 +33,7 @@ Desarrollado por:
   
      s  = 5
         
-   5.El valor rank siendo la importancia de la pagina en un valor numerico calculado de la siguiente manera: rank = e/s 
+   5.El valor rank siendo la importancia de la pagina en un valor numerico calculado de la siguiente manera: rank = e/(s+1) 
    
      rank = 0.0
-        
- # Posible situacion
- En caso de que el valor de los links salientes sea 0 se aplicara la siguiente formula para hallar la importancia(rank): e/s+1
+       
