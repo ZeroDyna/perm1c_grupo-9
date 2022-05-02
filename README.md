@@ -3,7 +3,7 @@ El progrma fue desarrollado programa nos permite indexar paginas web, buscando l
 
 Desarrollado por:
 - Alexis Espinoza Villanueva
-- RenatoOscar Corrales Peña
+- Renato Oscar Corrales Peña
 
 El programa se desarrollo a partir del siguiente diccionario:
 
