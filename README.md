@@ -22,15 +22,15 @@ Desarrollado por:
     
    3.El valor de e siennndo los links entrantes.
    
-        e   = 0
+     e   = 0
     
    4. El valor de ssiendo los links salientes.
-    
-    s  = 5
+  
+     s  = 5
         
    5.El valor rank siendo la importancia de la pagina en un valor numerico calculado de la siguiente manera: rank = e/s 
    
-        rank = 0.0
+     rank = 0.0
         
  #Posible situacion
  En casso de que el valor de los links salientes sea 0 se aplicara la siguiente formula para hallar la importancia(rank): e/s+1
