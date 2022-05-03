@@ -28,7 +28,7 @@ En el cual las claves son urls de páginas web y los valores representan el cont
    
      e   = 0
     
-4.El valor de siendo los links salientes.
+4.El valor de s siendo los links salientes.
   
      s  = 5
         
