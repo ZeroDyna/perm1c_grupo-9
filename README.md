@@ -1,5 +1,5 @@
 # Web Crawler
-El progrma desarrollado nos permite indexar paginas web, buscando la interrelacion entre cada una de estas para su posterior uso en un buscador ademas de calificarlas seguun su importancia usando ciertos parametros establecidos.
+El programa desarrollado nos permite indexar paginas web, buscando la interrelación entre cada una de estas para su posterior uso en un buscador además de calificarlas segun su importancia usando ciertos parametros establecidos.
 
 Desarrollado por:
 - Alexis Espinoza Villanueva
