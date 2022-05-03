@@ -12,7 +12,7 @@ El programa se desarrolló a partir del siguiente diccionario:
 En el cual las claves son urls de páginas web y los valores representan el contenido de cada url o página.
 
 # Instrucciones de ejecución
-1.El usuario deberá tener python e ingresar
+1. El usuario deberá tener python e ingresar
 
     >>> python3 perm1c_grupo_9.py
     
