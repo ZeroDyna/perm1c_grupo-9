@@ -26,7 +26,7 @@ En el cual las claves son urls de páginas web y los valores representan el cont
     1. https://ucsp.edu.pe/cs111/python.html con un valor de 3
     ...
     
-4.Finalmente el programa nos muestra un ranking segun la importancia de las páginas web.
+4.Finalmente, el programa nos muestra un ranking según la importancia de las páginas web.
  
     1. https://ucsp.edu.pe/cs111/python.html con un valor de 3.0
     ...
