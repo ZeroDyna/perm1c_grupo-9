@@ -16,12 +16,13 @@ En el cual las claves son urls de páginas web y los valores representan el cont
 
     >>> python3 perm1c_grupo_9.py
     
-2.Al iniciar el programa se le mostrará un ranking de páginas web, según la cantidad de los links salientes.
+# 2. Ranking links salientes    
+Al iniciar el programa se le mostrará un ranking de páginas web, según la cantidad de los links salientes.
   
     1. https://ucsp.edu.pe/cs111/index.html con un valor de 5
     ...
-
-3.Seguido a este, se muestra ranking según la cantidad de links entrantes.
+# 3. Ranking links entrantes
+Seguido a este, se muestra ranking según la cantidad de links entrantes.
 
     1. https://ucsp.edu.pe/cs111/python.html con un valor de 3
     ...
