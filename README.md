@@ -32,5 +32,5 @@ En el cual las claves son urls de páginas web y los valores representan el cont
     ...
     
 La importancia del link se calcula de la siguiente manera e/(s+1) siendo:
-+ e == A la cantidad de los links entrantes
-+ s == A la cantidad de los links salientes
++ e: A la cantidad de los links entrantes
++ s: A la cantidad de los links salientes
