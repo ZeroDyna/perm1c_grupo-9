@@ -16,23 +16,14 @@ En el cual las claves son urls de páginas web y los valores representan el cont
 
     >>> python3 perm1c_grupo_9.py
     
-2.Al iniciar el programa se le mostrará la página web, los links entrantes, los links salientes y el valor de importancia de la página(como un valor numérico).
-    
-    página: https://ucsp.edu.pe/cs111/index.html
-    
-    e   = 0
-    s   = 5
-    rank = 0.0
-    
-3.El valor de e siendo los links entrantes.
-   
-     e   = 0
-    
-4.El valor de s siendo los links salientes.
+2.Al iniciar el programa se le mostrará la página web y un ranking con un valor numerico, segun los links salientes.
   
-     s  = 5
-        
-5.El valor rank siendo la importancia de la página en un valor numérico calculado de la siguiente manera: rank = e/(s+1) 
-   
-     rank = 0.0
-       
+        1. https://ucsp.edu.pe/cs111/index.html con un valor de 5
+    
+3. Seguido del ranking en base a los links salientes el programa nos muestra un ranking segun la importancia del link.
+ 
+        1. https://ucsp.edu.pe/cs111/python.html con un valor de 3.0
+    
+La importancia del link se calcula de la siguiente manera e/(s+1) siendo:
+e == A los links entrantes
+s == A los links salientes
