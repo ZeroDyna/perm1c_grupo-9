@@ -21,7 +21,7 @@ En el cual las claves son urls de páginas web y los valores representan el cont
     1. https://ucsp.edu.pe/cs111/index.html con un valor de 5
     ...
 
-3.Seguido a este, hay ranking según la cantidad de links entrantes.
+3.Seguido a este, se muestra ranking según la cantidad de links entrantes.
 
     1. https://ucsp.edu.pe/cs111/python.html con un valor de 3
     ...
