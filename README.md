@@ -19,10 +19,17 @@ En el cual las claves son urls de páginas web y los valores representan el cont
 2.Al iniciar el programa se le mostrará la página web y un ranking con un valor numerico, segun los links salientes.
   
     1. https://ucsp.edu.pe/cs111/index.html con un valor de 5
+    ...
+
+3.Seguido a este ranking esta el renking segun la cantidad de links entrantes.
+
+    1. https://ucsp.edu.pe/cs111/python.html con un valor de 3
+    ...
     
-3.Seguido del ranking en base a los links salientes el programa nos muestra un ranking segun la importancia del link.
+3.Como tercer y ultimo ranking el programa nos muestra un ranking segun la importancia del link.
  
     1. https://ucsp.edu.pe/cs111/python.html con un valor de 3.0
+    ...
     
 La importancia del link se calcula de la siguiente manera e/(s+1) siendo:
 e == A los links entrantes
