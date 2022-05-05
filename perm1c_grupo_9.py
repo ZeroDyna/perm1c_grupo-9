@@ -112,7 +112,7 @@ Pseudocódigo
 
 def mostrar_ranking(rank,nombre):
    for i in rank:
-      print(f"Posición N°{rank.index(i)+1}: La página {i[1]} tiene {i[0]}" + nombre)
+      print(f"Posición N°{rank.index(i)+1}: La página {i[1]} tiene {nombre} {i[0]}")
       
 #Asignación
 
@@ -194,11 +194,12 @@ print()
 print("Diccionario entrantes:\n", entrantes)
 
 print("\nRanking según la cantidad de páginas salientes (s):\n")
-mostrar_ranking(ranking_salientes," links s")
+mostrar_ranking(ranking_salientes,"la siguiente cantidad de links salientes:")
 print("\nRanking según la cantidad de links entrantes (e):\n")
-mostrar_ranking(ranking_entrantes," links e" )
+mostrar_ranking(ranking_entrantes,"la siguiente cantidad de links entrantes:")
 print("\nRanking según la importancia de la página (e/s+1):\n")
-mostrar_ranking(ranking_importancia," como valor de importancia")
+mostrar_ranking(ranking_importancia,"el siguiente valor de importancia:")
+
 
 
 
