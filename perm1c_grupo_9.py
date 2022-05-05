@@ -110,10 +110,10 @@ Pseudocódigo
 
 #Función para imprimir rankings
 
-def imprimir_rank(rank):
+def mostrar_ranking(rank,nombre):
    for i in rank:
-      print(f"{rank.index(i)+1}. {i[1]} con un valor de {i[0]}")
-
+      print(f"Posición N°{rank.index(i)+1}: La página {i[1]} tiene {i[0]}" + nombre)
+      
 #Asignación
 
 salientes = {}                      #Diccionario de links salientes
@@ -148,7 +148,7 @@ for pagina, texto in web.items():
    
    salientes[pagina] = conjunto_url
 
-#Armando el diccionario de links entrantes  522110 332210 3.0 1.5 1.0 0.6 0.3 0
+#Armando el diccionario de links entrantes
 
 for link in links_unicos:
 
@@ -189,12 +189,16 @@ ranking_importancia.sort(reverse=True)
 
 #Print de los rankings
 
-print("Ranking según links salientes:\n")
-imprimir_rank(ranking_salientes)
-print("\nRanking según links entrantes:\n")
-imprimir_rank(ranking_entrantes)
-print("\nRanking según importancia:\n")
-imprimir_rank(ranking_importancia)
+print(salientes)
+print()
+print(entrantes)
+
+print("\nRanking según la cantidad de páginas salientes (s):\n")
+mostrar_ranking(ranking_salientes," links s")
+print("\nRanking según la cantidad de links entrantes (e):\n")
+mostrar_ranking(ranking_entrantes," links e" )
+print("\nRanking según la importancia de la página (e/s+1):\n")
+mostrar_ranking(ranking_importancia," como valor de importancia")
 
 
 
