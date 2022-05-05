@@ -189,9 +189,9 @@ ranking_importancia.sort(reverse=True)
 
 #Print de los rankings
 
-print(salientes)
+print("Diccionario salientes:\n", salientes)
 print()
-print(entrantes)
+print("Diccionario entrantes:\n", entrantes)
 
 print("\nRanking según la cantidad de páginas salientes (s):\n")
 mostrar_ranking(ranking_salientes," links s")
